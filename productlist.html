@@ -20,16 +20,21 @@
     </header>
     <main>
         <h2>Apparel</h2>
-        <article class="smallProduct">
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey">
-            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-            <p class="subTitle">Tshirts - Nike</p>
-            <div class="discounted">
-                <p class="price">DKK 1596,-</p>
-            </div>
-            <a href="product.html">Read More</a>
-        </article>
-        <article class="smallProduct soldOut onSale">
+        <template id="smallProductTemplate">
+          <article class="smallProduct">
+              <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey">
+              <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+              <p class="subTitle">Tshirts - Nike</p>
+              <div class="discounted">
+                  <p class="price"></p>
+                  <p class=""></p>
+                  <p class="procent"></p>
+              </div>
+              <!--<p class="offerPrice"></p>-->
+              <a class="read-more" href="product.html">Read More</a>
+          </article>
+        </template>
+        <!--<article class="smallProduct soldOut onSale">
             <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey">
             <h3>Blue T20 Indian Cricket Jersey</h3>
             <p class="subTitle">Tshirts - Nike</p>
@@ -70,7 +75,7 @@
                 <p>-57%</p>
             </div>
             <a href="product.html">Read More</a>
-        </article>
+        </article>-->
     </main>
     <script src="js/productlist.js"></script>
   </body>
